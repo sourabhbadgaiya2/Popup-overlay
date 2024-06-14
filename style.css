@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.images{
+    height: 100%;
+    object-fit: contain;
+margin-top: -13%;
+}
+.main {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    /* color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url(https://cdn.pixabay.com/photo/2017/08/10/00/40/stars-2616537_960_720.jpg); */
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+}
+
+.content {
+    /* margin-top: 10%; */
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 60%;
+    width: 60%;
+    border-top-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+
+    overflow: hidden;
+    display: flex;
+}
+
+.content img {
+    height: 100%;
+    width: 50%;
+    mix-blend-mode: multiply;
+    object-fit: contain;
+}
+
+.right {
+    /* text-align: center; */
+    height: 100%;
+    width: 50%;
+}
+
+.right img {
+    height: 70%;
+    width: 80%;
+    margin-top: -12%;
+    mix-blend-mode: multiply;
+    /* box-shadow: 0 0 10px black; */
+    /* margin-right: 100%; */
+}
+
+h3 {
+    text-align: center;
+    margin-right: 20%;
+}
+
+.butt {
+    margin-top: 2%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+
+}
+
+input,
+button {
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.253);
+}
+
+button {
+    background-color: #FFDD00;
+    font-weight: 900;
+    border: none;
+}
